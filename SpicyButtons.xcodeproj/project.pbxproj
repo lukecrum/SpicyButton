@@ -11,37 +11,10 @@
 		C44863201FD7255A00D39CB6 /* SpicyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448631F1FD7255A00D39CB6 /* SpicyButton.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C448631B1FD7252E00D39CB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C44863131FD7252E00D39CB6 /* Sample App.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C44862E11FD7250900D39CB6;
-			remoteInfo = "Sample App";
-		};
-		C448631D1FD7252E00D39CB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C44863131FD7252E00D39CB6 /* Sample App.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C44862F81FD7250900D39CB6;
-			remoteInfo = "Sample AppUITests";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C44862CD1FD724E600D39CB6 /* SpicyButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpicyButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44862D01FD724E600D39CB6 /* SpicyButtons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpicyButtons.h; sourceTree = "<group>"; };
 		C44862D11FD724E600D39CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C44863091FD7252E00D39CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C448630A1FD7252E00D39CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C448630C1FD7252E00D39CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C448630E1FD7252E00D39CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C448630F1FD7252E00D39CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C44863111FD7252E00D39CB6 /* Sample_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sample_App.xcdatamodel; sourceTree = "<group>"; };
-		C44863121FD7252E00D39CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C44863131FD7252E00D39CB6 /* Sample App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Sample App.xcodeproj"; sourceTree = "<group>"; };
-		C44863171FD7252E00D39CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C44863181FD7252E00D39CB6 /* Sample_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_AppUITests.swift; sourceTree = "<group>"; };
 		C448631F1FD7255A00D39CB6 /* SpicyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpicyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +34,6 @@
 			children = (
 				C44862CF1FD724E600D39CB6 /* SpicyButtons */,
 				C44862CE1FD724E600D39CB6 /* Products */,
-				C44863071FD7252E00D39CB6 /* Sample App */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,48 +53,6 @@
 				C44862D11FD724E600D39CB6 /* Info.plist */,
 			);
 			path = SpicyButtons;
-			sourceTree = "<group>";
-		};
-		C44863071FD7252E00D39CB6 /* Sample App */ = {
-			isa = PBXGroup;
-			children = (
-				C44863081FD7252E00D39CB6 /* Sample App */,
-				C44863131FD7252E00D39CB6 /* Sample App.xcodeproj */,
-				C44863161FD7252E00D39CB6 /* Sample AppUITests */,
-			);
-			path = "Sample App";
-			sourceTree = "<group>";
-		};
-		C44863081FD7252E00D39CB6 /* Sample App */ = {
-			isa = PBXGroup;
-			children = (
-				C44863091FD7252E00D39CB6 /* AppDelegate.swift */,
-				C448630A1FD7252E00D39CB6 /* Assets.xcassets */,
-				C448630B1FD7252E00D39CB6 /* LaunchScreen.storyboard */,
-				C448630D1FD7252E00D39CB6 /* Main.storyboard */,
-				C448630F1FD7252E00D39CB6 /* Info.plist */,
-				C44863101FD7252E00D39CB6 /* Sample_App.xcdatamodeld */,
-				C44863121FD7252E00D39CB6 /* ViewController.swift */,
-			);
-			path = "Sample App";
-			sourceTree = "<group>";
-		};
-		C44863141FD7252E00D39CB6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C448631C1FD7252E00D39CB6 /* Sample App.app */,
-				C448631E1FD7252E00D39CB6 /* Sample AppUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C44863161FD7252E00D39CB6 /* Sample AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C44863171FD7252E00D39CB6 /* Info.plist */,
-				C44863181FD7252E00D39CB6 /* Sample_AppUITests.swift */,
-			);
-			path = "Sample AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,35 +113,12 @@
 			mainGroup = C44862C31FD724E600D39CB6;
 			productRefGroup = C44862CE1FD724E600D39CB6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C44863141FD7252E00D39CB6 /* Products */;
-					ProjectRef = C44863131FD7252E00D39CB6 /* Sample App.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C44862CC1FD724E600D39CB6 /* SpicyButtons */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		C448631C1FD7252E00D39CB6 /* Sample App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Sample App.app";
-			remoteRef = C448631B1FD7252E00D39CB6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C448631E1FD7252E00D39CB6 /* Sample AppUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Sample AppUITests.xctest";
-			remoteRef = C448631D1FD7252E00D39CB6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C44862CB1FD724E600D39CB6 /* Resources */ = {
@@ -233,25 +140,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C448630B1FD7252E00D39CB6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C448630C1FD7252E00D39CB6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		C448630D1FD7252E00D39CB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C448630E1FD7252E00D39CB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C44862D31FD724E600D39CB6 /* Debug */ = {
@@ -429,19 +317,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C44863101FD7252E00D39CB6 /* Sample_App.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C44863111FD7252E00D39CB6 /* Sample_App.xcdatamodel */,
-			);
-			currentVersion = C44863111FD7252E00D39CB6 /* Sample_App.xcdatamodel */;
-			path = Sample_App.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C44862C41FD724E600D39CB6 /* Project object */;
 }

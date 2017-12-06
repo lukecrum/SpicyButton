@@ -25,6 +25,14 @@ import UIKit
             layer.borderColor = newValue.cgColor
         }
     }
+    @IBInspectable public var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
     @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -49,7 +57,7 @@ import UIKit
             layer.shadowRadius = newValue
         }
     }
-    @IBInspectable public var shadowrColor: UIColor {
+    @IBInspectable public var shadowColor: UIColor {
         get {
             return UIColor(cgColor: layer.shadowColor!)
         }
@@ -65,12 +73,12 @@ import UIKit
             layer.shadowOpacity = newValue
         }
     }
-    @IBInspectable public var backgroundColor: UIColor {
+     @IBInspectable override open var backgroundColor: UIColor? {
         get {
-            return UIColor(cgColor: backgroundColor!)
+            return UIColor(cgColor: layer.backgroundColor!)
         }
         set {
-            layer.backgroundColor = newValue.cgColor
+            self.backgroundColor = newValue
         }
     }
     

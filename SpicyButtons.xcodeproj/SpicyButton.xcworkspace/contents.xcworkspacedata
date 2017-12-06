@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Sample App"
+      name = "Sample App">
+      <FileRef
+         location = "group:Sample App.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Sample AppUITests"
+         name = "Sample AppUITests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Sample_AppUITests.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:SpicyButton.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "container:">
+   </FileRef>
+</Workspace>
