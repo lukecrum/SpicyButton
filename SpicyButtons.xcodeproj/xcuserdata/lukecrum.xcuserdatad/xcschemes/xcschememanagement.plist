@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Example App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SpicyButtons.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C43453F91FD7A118009C14E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C434540E1FD7A118009C14E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44862CC1FD724E600D39CB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

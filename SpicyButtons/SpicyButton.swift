@@ -73,13 +73,5 @@ import UIKit
             layer.shadowOpacity = newValue
         }
     }
-     @IBInspectable override open var backgroundColor: UIColor? {
-        get {
-            return UIColor(cgColor: layer.backgroundColor!)
-        }
-        set {
-            self.backgroundColor = newValue
-        }
-    }
     
 }
