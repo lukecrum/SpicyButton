@@ -1,0 +1,6 @@
+framework module SpicyButton {
+  umbrella header "SpicyButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

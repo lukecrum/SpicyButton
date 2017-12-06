@@ -1,0 +1,12 @@
+PODS:
+  - SpicyButton (0.0.1)
+
+DEPENDENCIES:
+  - SpicyButton
+
+SPEC CHECKSUMS:
+  SpicyButton: 726ed803d8afe2db31de6a0524a885d936bc78cd
+
+PODFILE CHECKSUM: 202e24ae61e7660c885985c69f2cc0ab7d76f7dc
+
+COCOAPODS: 1.2.1
