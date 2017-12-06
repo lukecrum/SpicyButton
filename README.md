@@ -6,3 +6,6 @@ Full-featured IBDesignable UIButton class
 pod 'SpicyButton'
 ```
 
+# Usage
+- You can easily create buttons using Storyboard files:
+![Class](http://lukecrum.xyz/Images/Class.png)
