@@ -73,5 +73,13 @@ import UIKit
             layer.shadowOpacity = newValue
         }
     }
+    @IBInspectable override open var currentTitle: String {
+        get {
+            return self.currentTitle
+        }
+        set {
+            self.setTitle(newValue, for: .normal)
+        }
+    }
     
 }
