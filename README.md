@@ -1,3 +1,4 @@
+![Logo](http://lukecrum.xyz/Images/Logo.png)
 # SpicyButton
 Full-featured IBDesignable UIButton class
 # Installation
